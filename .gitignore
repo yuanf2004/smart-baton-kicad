@@ -1,0 +1,7 @@
+.DS_Store
+.history/
+*-backups/
+*.kicad_prl
+*.lck
+~*.kicad_pro.lck
+~*.kicad_sch.lck

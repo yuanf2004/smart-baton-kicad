@@ -17,8 +17,8 @@
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
-          "arrow_length": 100000,
-          "extension_offset": 100000,
+          "arrow_length": 500000,
+          "extension_offset": 200000,
           "keep_text_aligned": true,
           "suppress_zeroes": true,
           "text_position": 0,
@@ -30,16 +30,16 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.01,
+        "other_line_width": 0.1,
         "other_text_italic": false,
-        "other_text_size_h": 0.1,
-        "other_text_size_v": 0.1,
-        "other_text_thickness": 0.01,
+        "other_text_size_h": 0.6,
+        "other_text_size_v": 0.6,
+        "other_text_thickness": 0.1,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.1,
+          "height": 1.1,
+          "width": 1.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -482,7 +482,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Smart Baton.kicad_pro",
+    "filename": "L Smart Baton.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -637,18 +637,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Smart Baton.kicad_sch",
-        "name": "Smart Baton",
-        "uuid": "4cd5a3a6-441a-4d49-b89e-ac57047910ed"
+        "filename": "L Smart Baton.kicad_sch",
+        "name": "L Smart Baton",
+        "uuid": "0317b452-a1b7-45b1-86f0-abd0d959d24f"
       }
     ],
-    "used_designators": "J1,#PWR1-9,C1-2,R1-2,U1-3",
+    "used_designators": "D1,#PWR10-28,C3-8,R3-5,L1,U4",
     "variants": []
   },
   "sheets": [
     [
-      "4cd5a3a6-441a-4d49-b89e-ac57047910ed",
-      "Smart Baton"
+      "0317b452-a1b7-45b1-86f0-abd0d959d24f",
+      "L Smart Baton"
     ]
   ],
   "text_variables": {},

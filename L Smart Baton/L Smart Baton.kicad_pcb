@@ -124,36 +124,36 @@
 	)
 	(net 0 "")
 	(gr_rect
-		(start 130 80)
-		(end 165 100)
+		(start 95 60)
+		(end 190 120)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "ecee5e4a-67f8-4d2c-ac09-69aee19bff96")
+		(uuid "caf20a36-bedb-4c54-a8c1-63795dd2b804")
 	)
-	(gr_text "KiCad footprint merge request screenshot template (small parts)"
-		(at 187 190.5 0)
-		(layer "Cmts.User")
-		(uuid "51b0a636-5599-43d9-8e81-ca681368015e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.225)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "This template is for quickly creating diagrams for KiCad symbols and footprints.\n\nSteps to create a helpful screenshot for a merge request:\n  * Add the new or modified footprint to this PCB layout\n  * Use the dimension tool to create a fully-specified dimensioned drawing of the footprint\n  * Take a screenshot of the footprint and insert it into the GitLab merge request description field\n  * Optionally, set the manufacturer 3D model in the footprint properties and screenshot useful angles to show good part fit\nSee also: https://www.kicad.org/libraries/contribute/"
+	(gr_text "This template is for quickly creating diagrams for KiCad symbols and footprints.\n\nSteps to create a helpful screenshot for a merge request:\n  * Add the new or modified footprint to this PCB layout\n  * Use the dimension tool to create a full-specified dimensioned drawing of the footprint\n  * Take a screenshot of the footprint and insert it into the GitLab merge request description field\n  * Optionally, set the manufacturer 3D model in the footprint properties and screenshot useful angles to show good part fit\nSee also: https://www.kicad.org/libraries/contribute/"
 		(at 178 180 0)
 		(layer "Cmts.User")
-		(uuid "eb98cca5-fb32-4e7c-bcf2-f53490c493a9")
+		(uuid "44a5fec5-ca62-4890-a884-6cab96f1e26e")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "KiCad footprint merge request screenshot template (large parts)"
+		(at 188 190.5 0)
+		(layer "Cmts.User")
+		(uuid "565f6f2c-a9a4-4e28-bc38-7f044c2ddff1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.225)
 			)
 			(justify left bottom)
 		)
