@@ -650,7 +650,7 @@
         "uuid": "0317b452-a1b7-45b1-86f0-abd0d959d24f"
       }
     ],
-    "used_designators": "D1,#PWR10-28,C3-8,R3-5,L1,U4",
+    "used_designators": "J2,BLE_LED_R1-3,C3,#PWR10,#PWR29-36,D1-2,SW1-2,R3,R6",
     "variants": []
   },
   "sheets": [
