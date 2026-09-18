@@ -5335,6 +5335,16 @@
 		)
 		(uuid "e8012ac8-1f11-48f2-a0d9-8a2f197e153c")
 	)
+	(text "LIPO we are using is: https://www.adafruit.com/product/1578?utm_source=chatgpt.com"
+		(exclude_from_sim no)
+		(at 482.6 176.022 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "f4b1e6f1-a20a-42bf-9eb1-681125650401")
+	)
 	(junction
 		(at 236.22 203.2)
 		(diameter 0)
