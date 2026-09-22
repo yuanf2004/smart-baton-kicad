@@ -7427,7 +7427,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 361.95) (xy 203.2 361.95)
+			(xy 176.53 361.95) (xy 190.5 361.95)
 		)
 		(stroke
 			(width 0)
@@ -7827,6 +7827,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 361.95) (xy 203.2 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef3f1ed-97b1-43d7-9ff5-d0f8e47f648c")
+	)
+	(wire
+		(pts
 			(xy 248.92 269.24) (xy 261.62 269.24)
 		)
 		(stroke
@@ -8026,7 +8036,7 @@
 		(uuid "b38eff56-7086-49bf-a17c-cce812c72e8c")
 	)
 	(label "USER_BTN"
-		(at 185.42 361.95 0)
+		(at 176.53 361.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14146,6 +14156,86 @@
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 361.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b24996ea-3c73-47c1-b238-30e9ea9eab65")
+		(property "Reference" "SW1_R1"
+			(at 194.31 355.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 194.31 358.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 363.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "11f3bdef-ba61-494f-a94f-516c4990e87a")
+		)
+		(pin "1"
+			(uuid "b37be517-489f-4605-934b-c54a0ed25dbf")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "SW1_R1")
 					(unit 1)
 				)
 			)
