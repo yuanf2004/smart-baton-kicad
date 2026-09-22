@@ -415,6 +415,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1686,6 +1809,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2065,525 +2377,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_KRGB"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_KRGB"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RGB LED, cathode/red/green/blue"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED RGB diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_KRGB_0_0"
-				(text "R"
-					(at 1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at 1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "B"
-					(at 1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "LED_KRGB_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.032 5.08) (xy -2.032 -5.08) (xy -1.016 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.35)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 3.81)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LED_KRGB_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "RA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "GA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "BA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2714,6 +2507,420 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:APFA3010"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "APFA3010"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LED RGB, Common Anode, SMD, 3.0x1.5mm, Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED RGB SMD Kingbright APFA3010 Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Kingbright*APFA3010*3x1.5mm*Horizontal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "APFA3010_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "APFA3010_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -8.89)
+					(end 2.54 8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "APFA3010_1_1"
+				(pin input line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4858,7 +5065,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -4869,7 +5076,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4878,8 +5085,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4900,6 +5107,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4910,7 +5128,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4921,21 +5139,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -4946,7 +5153,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -4957,8 +5164,19 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -4968,9 +5186,20 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -4988,7 +5217,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -4998,6 +5227,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5262,6 +5509,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "SMART CONDUCTING BATON"
 		(exclude_from_sim no)
@@ -5289,7 +5651,7 @@
 	)
 	(text "MCU / IMU\n"
 		(exclude_from_sim no)
-		(at 328.422 283.718 0)
+		(at 330.2 356.616 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -5310,6 +5672,18 @@
 			)
 		)
 		(uuid "454c25eb-957b-4813-b2bd-0ee7a8245815")
+	)
+	(text "Crystal"
+		(exclude_from_sim no)
+		(at 339.09 268.732 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "66b0b080-7a8b-4ee2-b2f2-41752284ab11")
 	)
 	(text "LIPO BATTERY SENSE"
 		(exclude_from_sim no)
@@ -5337,7 +5711,7 @@
 	)
 	(text "LIPO we are using is: https://www.adafruit.com/product/1578"
 		(exclude_from_sim no)
-		(at 482.6 176.022 0)
+		(at 452.628 173.482 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -5346,7 +5720,25 @@
 		(uuid "f4b1e6f1-a20a-42bf-9eb1-681125650401")
 	)
 	(junction
-		(at 236.22 203.2)
+		(at 274.32 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a0c75b-bd96-4dd7-9e7c-c3a7a6d6ea32")
+	)
+	(junction
+		(at 261.62 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ad5696d-3ae5-452c-9d10-81903d4e2245")
+	)
+	(junction
+		(at 328.93 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dbbca9b-830b-4385-bde1-714e00a48fbb")
+	)
+	(junction
+		(at 236.22 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc3beb1-6528-436c-b1cd-3c9584af3a10")
@@ -5364,7 +5756,13 @@
 		(uuid "3ffe0b32-7515-4f67-91fd-e7235e58b26c")
 	)
 	(junction
-		(at 262.89 203.2)
+		(at 340.36 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40280da3-05b0-433d-b582-b5be1577b55e")
+	)
+	(junction
+		(at 262.89 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "437a0abb-54be-4649-bfd5-3ceb5e8925c7")
@@ -5382,22 +5780,52 @@
 		(uuid "4dc338df-a5d2-405a-9ec5-4193fcd965b2")
 	)
 	(junction
+		(at 262.89 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de342fd-47bc-453e-be6f-af0bceba9f30")
+	)
+	(junction
+		(at 279.4 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53fde752-59af-44e4-be44-2f4372e9e270")
+	)
+	(junction
 		(at 300.99 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "598d5c87-9219-4f4a-beae-8cd4420117b0")
 	)
 	(junction
-		(at 295.91 208.28)
+		(at 316.23 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d4a1a2b-7dd4-4563-b4ef-058f2648ffc3")
+		(uuid "5d994a90-3d70-464f-a057-3dcc20b8e151")
+	)
+	(junction
+		(at 271.78 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7fae40-5b41-4d1d-9aea-1b4143220ed8")
+	)
+	(junction
+		(at 316.23 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c06ef34-5063-488e-b3b0-19433ecc3eea")
 	)
 	(junction
 		(at 367.03 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d59734d-f0ad-4e21-8036-5a6106195cd9")
+	)
+	(junction
+		(at 262.89 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a325fe-252a-4f36-99e0-defb8c850996")
 	)
 	(junction
 		(at 317.5 181.61)
@@ -5418,16 +5846,34 @@
 		(uuid "8aa2f51e-9c32-45d5-8b45-66ccd26ea21d")
 	)
 	(junction
-		(at 326.39 200.66)
+		(at 295.91 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d28ffc1-289e-44b1-be0d-8196686058f1")
+	)
+	(junction
+		(at 326.39 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be64cb5-24ac-4699-8f04-633329dd3589")
 	)
 	(junction
-		(at 285.75 228.6)
+		(at 285.75 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a033bee1-eb0d-41fb-8aec-c4c70a176bf5")
+	)
+	(junction
+		(at 300.99 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a12a8cb5-ba35-439d-8023-55fa8be9fdb4")
+	)
+	(junction
+		(at 231.14 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a404e9da-b817-42a0-b9fc-20039762b1c7")
 	)
 	(junction
 		(at 367.03 160.02)
@@ -5436,7 +5882,7 @@
 		(uuid "b808c425-cd10-46b6-8c3b-271723beea64")
 	)
 	(junction
-		(at 311.15 200.66)
+		(at 311.15 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bec468be-bb08-43a4-b59e-eed0dae8d5b6")
@@ -5454,7 +5900,7 @@
 		(uuid "c9d9cb84-92cd-457d-b56c-76d0c88e9277")
 	)
 	(junction
-		(at 318.77 209.55)
+		(at 318.77 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cde6ebbe-39cb-4f8b-ad6d-55b46e5fee53")
@@ -5496,10 +5942,62 @@
 		(uuid "ee81a2b1-927a-4e64-b8c9-103ec3bac68e")
 	)
 	(junction
-		(at 300.99 200.66)
+		(at 300.99 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f143e531-f734-487a-bb18-52468b9dd7fe")
+	)
+	(no_connect
+		(at 302.26 284.48)
+		(uuid "0255cb2d-dec7-4d15-8bd2-7da4b3007e3e")
+	)
+	(no_connect
+		(at 261.62 347.98)
+		(uuid "0cf48911-16c3-4499-83bf-ea32588bef7d")
+	)
+	(no_connect
+		(at 261.62 345.44)
+		(uuid "0d6f3821-54cf-4138-905d-4fc8407e6fab")
+	)
+	(no_connect
+		(at 261.62 289.56)
+		(uuid "19e42af5-1e4a-42c8-b927-f9c565c630a0")
+	)
+	(no_connect
+		(at 302.26 345.44)
+		(uuid "22ba2b30-0011-4580-bc3d-c95b607b6ce4")
+	)
+	(no_connect
+		(at 302.26 325.12)
+		(uuid "262546fd-6a0c-4128-91ec-749a88ba3db5")
+	)
+	(no_connect
+		(at 261.62 317.5)
+		(uuid "2c959b23-092f-469c-be5a-b45bd09af9c4")
+	)
+	(no_connect
+		(at 261.62 302.26)
+		(uuid "2c9fe12f-15a7-4ef5-9b4d-d91898d20e8c")
+	)
+	(no_connect
+		(at 261.62 337.82)
+		(uuid "329cc6bb-0a47-4c04-b634-01e0858bc562")
+	)
+	(no_connect
+		(at 340.36 316.23)
+		(uuid "377121aa-e7f7-412e-b422-727208c00706")
+	)
+	(no_connect
+		(at 302.26 342.9)
+		(uuid "5bb8e586-754e-4a2b-b2b1-a1efe034ca77")
+	)
+	(no_connect
+		(at 302.26 340.36)
+		(uuid "5d8a889a-2bcc-426c-b715-086f126298d9")
+	)
+	(no_connect
+		(at 261.62 330.2)
+		(uuid "6196c0b1-eb5b-4df9-9f65-446d01d8343c")
 	)
 	(no_connect
 		(at 283.21 119.38)
@@ -5510,12 +6008,68 @@
 		(uuid "675c482d-0c00-4dd3-98fc-69034829ad05")
 	)
 	(no_connect
+		(at 261.62 299.72)
+		(uuid "679d4da4-b550-43e4-bf1c-b7b77c1b7155")
+	)
+	(no_connect
+		(at 261.62 322.58)
+		(uuid "69f4ac79-0da8-44f9-84fe-9cfb69d5a631")
+	)
+	(no_connect
 		(at 278.13 175.26)
 		(uuid "69f5a8e6-0fc7-47de-98d9-5945db792307")
 	)
 	(no_connect
+		(at 302.26 337.82)
+		(uuid "72072038-aefc-44b4-93c5-9a7f8aae9146")
+	)
+	(no_connect
+		(at 302.26 294.64)
+		(uuid "72c2b8ec-410f-4594-b68c-6848ba88b927")
+	)
+	(no_connect
+		(at 261.62 332.74)
+		(uuid "7433eed1-d9ab-4e2e-875b-a86b631504a4")
+	)
+	(no_connect
+		(at 261.62 340.36)
+		(uuid "755c8d51-12c2-4193-b149-03da01de7c4f")
+	)
+	(no_connect
+		(at 261.62 350.52)
+		(uuid "7cff4b70-f0a1-4678-a77f-1007dab274ec")
+	)
+	(no_connect
 		(at 285.75 119.38)
 		(uuid "80a46529-6076-42da-a13f-e6018c4f132a")
+	)
+	(no_connect
+		(at 261.62 279.4)
+		(uuid "8424d3c7-20a1-4b8b-a733-96d1a96b0dcd")
+	)
+	(no_connect
+		(at 302.26 297.18)
+		(uuid "87aa34a3-ed22-43e2-b211-fb39bbba75b6")
+	)
+	(no_connect
+		(at 340.36 318.77)
+		(uuid "8a37aafd-1393-447f-891c-34788829b9bb")
+	)
+	(no_connect
+		(at 302.26 281.94)
+		(uuid "8c6b3b68-e35a-4b0f-987b-06f5460577a3")
+	)
+	(no_connect
+		(at 302.26 299.72)
+		(uuid "9113dc45-c70f-45b6-813e-02f2d63d1034")
+	)
+	(no_connect
+		(at 261.62 287.02)
+		(uuid "9a20bc18-c3e6-4c90-8940-2ca607aeff75")
+	)
+	(no_connect
+		(at 224.79 220.98)
+		(uuid "9b226344-1342-4470-8e5a-363d0046029b")
 	)
 	(no_connect
 		(at 287.02 264.16)
@@ -5526,8 +6080,28 @@
 		(uuid "a52bd7dc-74f7-4621-828f-2b41b7f5d94a")
 	)
 	(no_connect
+		(at 261.62 335.28)
+		(uuid "a8c6a953-5210-4010-b501-d531642cdd7e")
+	)
+	(no_connect
+		(at 261.62 284.48)
+		(uuid "b1d783d8-1b6c-4f81-af2b-04942a34c459")
+	)
+	(no_connect
+		(at 261.62 294.64)
+		(uuid "b37237f7-7f51-4478-beeb-2c0efd5fa53f")
+	)
+	(no_connect
+		(at 261.62 325.12)
+		(uuid "b6274cd9-113f-408d-8d2d-d8fbfe43261a")
+	)
+	(no_connect
 		(at 273.05 119.38)
 		(uuid "bc173e0b-2704-4ace-ab09-1dc6dfc1b39a")
+	)
+	(no_connect
+		(at 261.62 281.94)
+		(uuid "bdae78fa-dd63-493e-ba8e-a807a33c921f")
 	)
 	(no_connect
 		(at 288.29 119.38)
@@ -5536,6 +6110,26 @@
 	(no_connect
 		(at 261.62 312.42)
 		(uuid "c7ad7323-8c22-45bf-a56f-ef5fcb24a326")
+	)
+	(no_connect
+		(at 261.62 292.1)
+		(uuid "cb5c4327-6e0b-46af-9c65-ba07ccd08d19")
+	)
+	(no_connect
+		(at 261.62 327.66)
+		(uuid "d92b4a44-0b5e-4f76-b280-a927bcf6a466")
+	)
+	(no_connect
+		(at 302.26 335.28)
+		(uuid "e583457e-46a8-4ced-a618-40fb64d2116b")
+	)
+	(no_connect
+		(at 261.62 320.04)
+		(uuid "e9bbc5ba-3ef9-4d34-bcb9-3f69f7df1746")
+	)
+	(no_connect
+		(at 261.62 342.9)
+		(uuid "f082aa16-3517-4d76-9178-17b753d24bec")
 	)
 	(no_connect
 		(at 261.62 309.88)
@@ -5563,7 +6157,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 205.74) (xy 275.59 205.74)
+			(xy 236.22 218.44) (xy 275.59 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5590,6 +6184,36 @@
 			(type default)
 		)
 		(uuid "067f7fc5-d6bd-46d7-930a-c045ca63cdb6")
+	)
+	(wire
+		(pts
+			(xy 279.4 261.62) (xy 281.94 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077b9722-2e83-45c1-9555-7eed8062b14d")
+	)
+	(wire
+		(pts
+			(xy 256.54 261.62) (xy 261.62 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09959c8f-0de2-4204-a748-697c136ad812")
+	)
+	(wire
+		(pts
+			(xy 302.26 289.56) (xy 304.8 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9363b0-f542-4f53-9024-a1e39314546b")
 	)
 	(wire
 		(pts
@@ -5623,6 +6247,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 276.86) (xy 306.07 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125ce304-b916-4f75-a887-757a7c080883")
+	)
+	(wire
+		(pts
 			(xy 228.6 142.24) (xy 238.76 142.24)
 		)
 		(stroke
@@ -5643,6 +6277,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 215.9) (xy 231.14 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddd3658-134b-413d-b13f-1602c3947a43")
+	)
+	(wire
+		(pts
 			(xy 248.92 271.78) (xy 261.62 271.78)
 		)
 		(stroke
@@ -5653,7 +6297,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 200.66) (xy 275.59 200.66)
+			(xy 236.22 213.36) (xy 262.89 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5670,6 +6314,16 @@
 			(type default)
 		)
 		(uuid "1fe7db87-f870-459a-8f15-b80c64bfda56")
+	)
+	(wire
+		(pts
+			(xy 231.14 215.9) (xy 236.22 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203f54e7-233c-45a3-aa35-fafc63bc05f8")
 	)
 	(wire
 		(pts
@@ -5710,6 +6364,26 @@
 			(type default)
 		)
 		(uuid "26ecb3eb-20a9-4b73-8ecb-8c456ddafd3a")
+	)
+	(wire
+		(pts
+			(xy 316.23 262.89) (xy 316.23 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294b4ab1-5131-4732-b6b4-132fe65acfe8")
+	)
+	(wire
+		(pts
+			(xy 302.26 274.32) (xy 306.07 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a470547-cedd-4b4e-bb00-65fee1b21f6a")
 	)
 	(wire
 		(pts
@@ -5783,13 +6457,33 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 132.08) (xy 300.99 132.08)
+			(xy 283.21 132.08) (xy 288.29 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33f43f5b-7a8a-4b7d-b97e-b24fe58599c9")
+	)
+	(wire
+		(pts
+			(xy 261.62 248.92) (xy 261.62 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35418f50-80af-41b1-95f8-4131ac1c83f4")
+	)
+	(wire
+		(pts
+			(xy 302.26 292.1) (xy 304.8 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3592287c-6a03-4ae4-924a-ff7d3ae63535")
 	)
 	(wire
 		(pts
@@ -5853,6 +6547,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 83.82) (xy 274.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4178f090-acec-421f-ac86-b4552e3b9470")
+	)
+	(wire
+		(pts
 			(xy 259.08 100.33) (xy 259.08 96.52)
 		)
 		(stroke
@@ -5883,6 +6587,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 213.36) (xy 275.59 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f05d31-325f-4b74-b083-c24e0c602b68")
+	)
+	(wire
+		(pts
+			(xy 271.78 248.92) (xy 271.78 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452fc84d-93ad-4595-8617-2840eb6e8736")
+	)
+	(wire
+		(pts
 			(xy 295.91 184.15) (xy 295.91 189.23)
 		)
 		(stroke
@@ -5893,7 +6617,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 210.82) (xy 275.59 210.82)
+			(xy 269.24 223.52) (xy 275.59 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5943,13 +6667,13 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 208.28) (xy 300.99 208.28)
+			(xy 262.89 207.01) (xy 262.89 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51349bb6-0d3a-49dd-b50a-9d9348333c98")
+		(uuid "521c0498-6b4c-41c3-bb11-c1e994eda1d0")
 	)
 	(wire
 		(pts
@@ -5963,7 +6687,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 209.55) (xy 318.77 210.82)
+			(xy 318.77 222.25) (xy 318.77 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5983,7 +6707,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 200.66) (xy 236.22 203.2)
+			(xy 236.22 213.36) (xy 236.22 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6003,6 +6727,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 274.32) (xy 306.07 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf65cf8-9854-4403-b77a-2cfb80837063")
+	)
+	(wire
+		(pts
 			(xy 328.93 330.2) (xy 328.93 311.15)
 		)
 		(stroke
@@ -6013,7 +6747,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 181.61) (xy 367.03 181.61)
+			(xy 317.5 181.61) (xy 340.36 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6033,7 +6767,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 228.6) (xy 285.75 226.06)
+			(xy 285.75 241.3) (xy 285.75 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6103,13 +6837,43 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 228.6) (xy 303.53 228.6)
+			(xy 261.62 257.81) (xy 261.62 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee44cdd-fa49-4bbe-a5dc-969c06b356c9")
+	)
+	(wire
+		(pts
+			(xy 285.75 241.3) (xy 303.53 241.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70debfec-4030-45de-9d92-9c04c951c8a7")
+	)
+	(wire
+		(pts
+			(xy 316.23 271.78) (xy 326.39 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716e28a1-cc91-417c-a979-820acf149985")
+	)
+	(wire
+		(pts
+			(xy 262.89 222.25) (xy 262.89 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7308dc7b-589f-47b0-b89f-f85793f34ac4")
 	)
 	(wire
 		(pts
@@ -6143,6 +6907,26 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 132.08) (xy 300.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79db6173-7e6d-4b93-9da8-a03f61e3c4f9")
+	)
+	(wire
+		(pts
+			(xy 274.32 83.82) (xy 274.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802e673f-8950-4124-9440-2f387d1696af")
+	)
+	(wire
+		(pts
 			(xy 300.99 151.13) (xy 300.99 162.56)
 		)
 		(stroke
@@ -6153,7 +6937,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 220.98) (xy 269.24 219.71)
+			(xy 269.24 233.68) (xy 269.24 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6183,6 +6967,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 316.23) (xy 379.73 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865abe3e-c46b-4e96-bba9-3f875341ae77")
+	)
+	(wire
+		(pts
 			(xy 278.13 144.78) (xy 278.13 149.86)
 		)
 		(stroke
@@ -6193,13 +6987,23 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 203.2) (xy 262.89 210.82)
+			(xy 262.89 215.9) (xy 262.89 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8858a9b8-2258-4986-93b2-a8d9187ce7d3")
+	)
+	(wire
+		(pts
+			(xy 340.36 181.61) (xy 367.03 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e93b26-c6db-49a8-a8ff-f2849780159d")
 	)
 	(wire
 		(pts
@@ -6213,7 +7017,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 228.6) (xy 285.75 228.6)
+			(xy 283.21 241.3) (xy 285.75 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6243,7 +7047,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 200.66) (xy 326.39 201.93)
+			(xy 326.39 213.36) (xy 326.39 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6260,6 +7064,16 @@
 			(type default)
 		)
 		(uuid "8ded1bda-0570-4cb5-8fc1-ded047673dc1")
+	)
+	(wire
+		(pts
+			(xy 279.4 261.62) (xy 279.4 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e795d16-51b3-497b-af64-649368b5502d")
 	)
 	(wire
 		(pts
@@ -6300,6 +7114,16 @@
 			(type default)
 		)
 		(uuid "91c2d0e9-614c-432c-96ca-4fb6e0842597")
+	)
+	(wire
+		(pts
+			(xy 328.93 209.55) (xy 328.93 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91da69c7-19d0-400e-9731-42b9559ccd79")
 	)
 	(wire
 		(pts
@@ -6353,7 +7177,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 220.98) (xy 269.24 220.98)
+			(xy 275.59 233.68) (xy 269.24 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6370,6 +7194,16 @@
 			(type default)
 		)
 		(uuid "9717967a-139d-4eda-8498-baaf48b7b889")
+	)
+	(wire
+		(pts
+			(xy 271.78 261.62) (xy 279.4 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c8967f-8c44-4a41-9a87-8ba5190b63b3")
 	)
 	(wire
 		(pts
@@ -6413,7 +7247,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 203.2) (xy 252.73 203.2)
+			(xy 236.22 215.9) (xy 252.73 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +7257,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 200.66) (xy 295.91 200.66)
+			(xy 300.99 213.36) (xy 295.91 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6453,6 +7287,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 279.4) (xy 316.23 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f0bc6b-b6cd-4d21-8c9e-9d089da7fb91")
+	)
+	(wire
+		(pts
 			(xy 367.03 157.48) (xy 367.03 160.02)
 		)
 		(stroke
@@ -6463,7 +7307,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 209.55) (xy 311.15 209.55)
+			(xy 318.77 222.25) (xy 311.15 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6473,13 +7317,23 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 209.55) (xy 326.39 209.55)
+			(xy 318.77 222.25) (xy 326.39 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6fa3067-54fd-4010-b81a-ba819edc9c55")
+	)
+	(wire
+		(pts
+			(xy 180.34 321.31) (xy 182.88 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7022ef7-4a25-4695-8835-e0c52c80f616")
 	)
 	(wire
 		(pts
@@ -6503,7 +7357,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 203.2) (xy 236.22 205.74)
+			(xy 328.93 213.36) (xy 330.2 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97fbb9b-4f11-4655-ba2f-80edd28491c0")
+	)
+	(wire
+		(pts
+			(xy 236.22 215.9) (xy 236.22 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6513,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 212.09) (xy 269.24 210.82)
+			(xy 269.24 224.79) (xy 269.24 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6553,7 +7417,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 203.2) (xy 226.06 203.2)
+			(xy 199.39 218.44) (xy 214.63 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6573,7 +7437,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 226.06) (xy 283.21 228.6)
+			(xy 283.21 238.76) (xy 283.21 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6583,13 +7447,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 200.66) (xy 311.15 201.93)
+			(xy 311.15 213.36) (xy 311.15 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b71e7a74-ec84-40e7-afdb-5ee6d1d96a53")
+	)
+	(wire
+		(pts
+			(xy 281.94 261.62) (xy 281.94 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80ce0b2-3924-499a-815a-8e85fbed0b82")
 	)
 	(wire
 		(pts
@@ -6613,17 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 208.28) (xy 295.91 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea6c15a-e4ed-41ca-8c28-b126af2bac93")
-	)
-	(wire
-		(pts
-			(xy 260.35 203.2) (xy 262.89 203.2)
+			(xy 260.35 215.9) (xy 262.89 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6653,6 +7517,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 261.62) (xy 271.78 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c50b52-1b31-4fcf-81bf-48e23915a590")
+	)
+	(wire
+		(pts
 			(xy 302.26 317.5) (xy 312.42 317.5)
 		)
 		(stroke
@@ -6663,13 +7537,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 200.66) (xy 326.39 200.66)
+			(xy 311.15 213.36) (xy 326.39 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4af3a01-0d74-4abf-a38b-80f97b6d7541")
+	)
+	(wire
+		(pts
+			(xy 295.91 220.98) (xy 300.99 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59798ae-dce1-4c0e-9a70-438338eb26eb")
 	)
 	(wire
 		(pts
@@ -6703,6 +7587,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 276.86) (xy 306.07 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db76562f-b303-4f04-bc53-2fcfe2751c5e")
+	)
+	(wire
+		(pts
 			(xy 302.26 322.58) (xy 312.42 322.58)
 		)
 		(stroke
@@ -6713,7 +7607,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 208.28) (xy 300.99 200.66)
+			(xy 300.99 220.98) (xy 300.99 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6723,13 +7617,23 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 200.66) (xy 330.2 200.66)
+			(xy 326.39 213.36) (xy 328.93 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ddfc40ef-1a37-4719-9ec9-6cf3c4421563")
+	)
+	(wire
+		(pts
+			(xy 316.23 288.29) (xy 316.23 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11e6af6-0bac-4cff-9a3e-0e6a57250b35")
 	)
 	(wire
 		(pts
@@ -6743,7 +7647,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 203.2) (xy 275.59 203.2)
+			(xy 262.89 215.9) (xy 275.59 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6763,6 +7667,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 318.77) (xy 379.73 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90edbc0-6f4a-41a9-974a-d4db4f205d76")
+	)
+	(wire
+		(pts
 			(xy 285.75 149.86) (xy 285.75 140.97)
 		)
 		(stroke
@@ -6770,6 +7684,36 @@
 			(type default)
 		)
 		(uuid "e9881717-5f7b-424f-ae00-0013265f5380")
+	)
+	(wire
+		(pts
+			(xy 274.32 85.09) (xy 274.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9092dc-9249-4071-9383-7bcc0ab9f486")
+	)
+	(wire
+		(pts
+			(xy 316.23 279.4) (xy 326.39 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb005480-39f7-44a2-831d-86c967d8dfb5")
+	)
+	(wire
+		(pts
+			(xy 271.78 257.81) (xy 271.78 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb666a6b-34ff-4bb5-90f1-2fe7814e84b8")
 	)
 	(wire
 		(pts
@@ -6833,7 +7777,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 200.66) (xy 311.15 200.66)
+			(xy 300.99 213.36) (xy 311.15 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6873,6 +7817,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 271.78) (xy 316.23 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab844d2-54bd-4938-a485-66149a34cd74")
+	)
+	(wire
+		(pts
 			(xy 248.92 269.24) (xy 261.62 269.24)
 		)
 		(stroke
@@ -6881,7 +7835,7 @@
 		)
 		(uuid "ffca3e4e-2b73-4e85-a3fd-074f0e564474")
 	)
-	(label "RGB_BLUE"
+	(label "RGB_RED"
 		(at 217.17 330.2 0)
 		(effects
 			(font
@@ -6890,6 +7844,16 @@
 			(justify left bottom)
 		)
 		(uuid "017c7c63-317a-456d-b38d-a8dc6307d07d")
+	)
+	(label "IMU_INT2"
+		(at 379.73 318.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0982057e-152d-427c-a456-20097dbd8da0")
 	)
 	(label "RGB_RED"
 		(at 312.42 317.5 0)
@@ -6921,6 +7885,16 @@
 		)
 		(uuid "18ffef54-fa33-49a8-b635-25a0d5d572ef")
 	)
+	(label "IMU_INT1"
+		(at 379.73 316.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5abac134-ae7d-4f40-85ca-2fe79848eb35")
+	)
 	(label "RGB_GREEN"
 		(at 217.17 321.31 0)
 		(effects
@@ -6951,8 +7925,18 @@
 		)
 		(uuid "6cc2a6f1-b1c9-4c77-b000-8108e59f9cf2")
 	)
+	(label "IMU_INT2"
+		(at 304.8 292.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75ca152b-65af-4626-828b-18cb735c5bed")
+	)
 	(label "SW_POW"
-		(at 210.82 203.2 0)
+		(at 199.39 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7051,7 +8035,7 @@
 		)
 		(uuid "bad2934c-cb11-407a-9fe1-592f3ae91264")
 	)
-	(label "RGB_RED"
+	(label "RGB_BLUE"
 		(at 217.17 312.42 0)
 		(effects
 			(font
@@ -7060,6 +8044,16 @@
 			(justify left bottom)
 		)
 		(uuid "c88f9a51-494f-41f3-af57-2c5bafb7b356")
+	)
+	(label "IMU_INT1"
+		(at 304.8 289.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8df8e22-c524-4145-880c-79a6da1abab5")
 	)
 	(label "CHG_STATUS"
 		(at 312.42 312.42 0)
@@ -7112,7 +8106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00badaf0-064c-4251-9a05-11c8107b4683")
-		(property "Reference" "R_CHG_PULLUP"
+		(property "Reference" "R_CHG_PULLUP1"
 			(at 224.282 181.864 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7134,7 +8128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 243.078 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -7176,7 +8170,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_CHG_PULLUP")
+					(reference "R_CHG_PULLUP1")
 					(unit 1)
 				)
 			)
@@ -7341,6 +8335,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 271.78 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0415ea4e-58dd-45ba-ba80-2404ce008712")
+		(property "Reference" "C_MCU_BULK1"
+			(at 275.59 252.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 275.59 255.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 272.7452 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 271.78 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc10d950-6d04-4394-bd3e-23cdcf8f6596")
+		)
+		(pin "1"
+			(uuid "c19ead8e-d385-4739-a81c-0e21f18484df")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "C_MCU_BULK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 337.82 142.24 90)
 		(unit 1)
@@ -7431,7 +8507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cb309cc-d280-4071-a374-1b92002fcea0")
-		(property "Reference" "R_ITERM"
+		(property "Reference" "R_ITERM1"
 			(at 318.77 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7451,7 +8527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 318.77 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -7493,7 +8569,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_ITERM")
+					(reference "R_ITERM1")
 					(unit 1)
 				)
 			)
@@ -7501,7 +8577,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS63001")
-		(at 285.75 210.82 0)
+		(at 285.75 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7511,7 +8587,7 @@
 		(dnp no)
 		(uuid "0d7b44fd-5c60-487c-8dcd-786f431ac9cc")
 		(property "Reference" "U4"
-			(at 285.75 186.69 0)
+			(at 285.75 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7521,7 +8597,7 @@
 			)
 		)
 		(property "Value" "TPS63001"
-			(at 285.75 195.58 0)
+			(at 285.75 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7531,7 +8607,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DRC0010J_ThermalVias"
-			(at 307.34 224.79 0)
+			(at 307.34 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +8618,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps63000.pdf"
-			(at 278.13 196.85 0)
+			(at 278.13 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,7 +8629,7 @@
 			)
 		)
 		(property "Description" "Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10"
-			(at 285.75 210.82 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,7 +8841,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 228.6 90)
+		(at 303.53 241.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7776,7 +8852,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a655c79-c260-4867-94b5-2045299b2b03")
 		(property "Reference" "#PWR014"
-			(at 309.88 228.6 0)
+			(at 309.88 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +8863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 307.34 228.5999 90)
+			(at 307.34 241.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7798,7 +8874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 228.6 0)
+			(at 303.53 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,7 +8885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 228.6 0)
+			(at 303.53 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7820,7 +8896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 228.6 0)
+			(at 303.53 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7853,7 +8929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b6376c3-cb0a-4641-add6-eefcda77eee9")
-		(property "Reference" "RGB_GREEN_R"
+		(property "Reference" "RGB_GREEN_R1"
 			(at 204.47 315.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7873,7 +8949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 323.088 90)
 			(hide yes)
 			(show_name no)
@@ -7915,93 +8991,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "RGB_GREEN_R")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_KRGB")
-		(at 187.96 321.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cc4bf2e-4184-41c9-8750-bb46cde7c5a1")
-		(property "Reference" "LED_RGB"
-			(at 187.96 307.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_KRGB"
-			(at 187.96 309.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RGB LED, cathode/red/green/blue"
-			(at 187.96 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "297ca24d-570d-4fe2-ae8f-cbc96e8151a7")
-		)
-		(pin "4"
-			(uuid "d8c6d725-31bb-4f21-82cf-c6ddc8ed22e1")
-		)
-		(pin "1"
-			(uuid "1c0a7c2d-161c-485a-9777-f98737897b0e")
-		)
-		(pin "2"
-			(uuid "edaa2db0-7718-4af7-ab19-8a87861d1556")
-		)
-		(instances
-			(project "L Smart Baton"
-				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "LED_RGB")
+					(reference "RGB_GREEN_R1")
 					(unit 1)
 				)
 			)
@@ -8019,7 +9009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e61f1ed-82e9-4502-9886-8dc7ea430574")
-		(property "Reference" "J_BAT"
+		(property "Reference" "J_BAT1"
 			(at 388.62 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8041,7 +9031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 386.08 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8083,7 +9073,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "J_BAT")
+					(reference "J_BAT1")
 					(unit 1)
 				)
 			)
@@ -8417,7 +9407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271d0dfa-1484-454c-b231-2f9913822317")
-		(property "Reference" "C_BAT_BQ"
+		(property "Reference" "C_BAT_BQ1"
 			(at 321.31 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8428,7 +9418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF 10V X7R"
 			(at 321.31 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +9429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 318.4652 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8481,7 +9471,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "C_BAT_BQ")
+					(reference "C_BAT_BQ1")
 					(unit 1)
 				)
 			)
@@ -8498,7 +9488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b4fe9c6-5df9-49c5-8efa-026ada4d3370")
-		(property "Reference" "C_IN_BQ"
+		(property "Reference" "C_IN_BQ1"
 			(at 306.07 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8508,7 +9498,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 25V X7R"
 			(at 306.324 147.828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8518,7 +9508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 309.88 150.1648 0)
 			(hide yes)
 			(show_name no)
@@ -8560,7 +9550,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "C_IN_BQ")
+					(reference "C_IN_BQ1")
 					(unit 1)
 				)
 			)
@@ -8646,6 +9636,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 300.99 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e044daf-d400-4d3b-a222-39719bd1c203")
+		(property "Reference" "#FLG01"
+			(at 302.895 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 304.8 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 300.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b11ac2b-99dd-4d82-9235-9e1b804ed7f5")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 328.93 125.73 90)
 		(unit 1)
@@ -8676,7 +9745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 127.508 90)
 			(hide yes)
 			(show_name no)
@@ -8803,6 +9872,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 300.99 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3adfa688-47a2-46c7-a511-53254061c8cd")
+		(property "Reference" "VBUS1"
+			(at 306.07 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 306.07 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 300.99 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 300.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f96361ce-eab8-4a40-accf-5a3c27934494")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "VBUS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 281.94 355.6 0)
 		(unit 1)
@@ -8891,7 +10039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ba160f2-e0ad-4876-8a4c-a4155f6be300")
-		(property "Reference" "C_SENSE"
+		(property "Reference" "C_SENSE1"
 			(at 378.968 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 378.46 166.6748 0)
 			(hide yes)
 			(show_name no)
@@ -8953,7 +10101,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "C_SENSE")
+					(reference "C_SENSE1")
 					(unit 1)
 				)
 			)
@@ -8970,7 +10118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c1e7188-6cc6-4ec9-8561-ed329c35423a")
-		(property "Reference" "RGB_RED_R"
+		(property "Reference" "RGB_BLUE_R1"
 			(at 204.47 306.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8990,7 +10138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 314.198 90)
 			(hide yes)
 			(show_name no)
@@ -9032,15 +10180,15 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "RGB_RED_R")
+					(reference "RGB_BLUE_R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 281.94 264.16 0)
+		(lib_id "LED:APFA3010")
+		(at 187.96 321.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9048,9 +10196,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4095377d-bb48-4e77-abd2-ec2cd1fc7d6b")
-		(property "Reference" "#PWR025"
-			(at 281.94 267.97 0)
+		(fields_autoplaced yes)
+		(uuid "42c1d2e1-b3df-4be7-bc8b-c1ba3996b680")
+		(property "Reference" "LED_RGB1"
+			(at 187.96 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APFA3010LSEEZGKQBKC"
+			(at 187.96 309.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal"
+			(at 187.96 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,18 +10229,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 279.4 257.048 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 264.16 0)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf"
+			(at 187.96 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,8 +10240,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 281.94 264.16 0)
+		(property "Description" "LED RGB, Common Anode, SMD, 3.0x1.5mm, Horizontal"
+			(at 187.96 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9092,24 +10251,22 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 281.94 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "2a277252-00f6-4744-8dcc-f81b70613269")
 		)
 		(pin "1"
-			(uuid "644d97b2-4779-4758-8f2d-22d00037569d")
+			(uuid "f0a17194-1985-4e37-b3d0-1a2212574e59")
+		)
+		(pin "4"
+			(uuid "a41ce302-b9dd-4d81-ac90-77ce5fff6b4d")
+		)
+		(pin "3"
+			(uuid "bf555a76-8044-4af7-9890-b37d0a2736c8")
 		)
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "#PWR025")
+					(reference "LED_RGB1")
 					(unit 1)
 				)
 			)
@@ -9127,7 +10284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45d07b6d-6e2e-4860-9144-ae406fd4e8ea")
-		(property "Reference" "R_TMR"
+		(property "Reference" "R_TMR1"
 			(at 328.93 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +10304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -9189,7 +10346,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_TMR")
+					(reference "R_TMR1")
 					(unit 1)
 				)
 			)
@@ -9274,8 +10431,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 318.77 210.82 0)
+		(lib_id "power:PWR_FLAG")
+		(at 262.89 222.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9284,9 +10441,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a78614c-69b0-49c2-b008-2bfe4665e8c9")
-		(property "Reference" "#PWR018"
-			(at 318.77 217.17 0)
+		(uuid "4944694c-456e-4b27-9e8b-26170bf8d56b")
+		(property "Reference" "#FLG03"
+			(at 260.985 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9296,18 +10453,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 318.77 215.9 0)
+		(property "Value" "PWR_FLAG"
+			(at 259.08 222.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 210.82 0)
+			(at 262.89 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +10476,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 210.82 0)
+			(at 262.89 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 262.89 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb4d9aeb-9ce4-454b-a83e-096569c0ff62")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 248.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d44f18-b0ad-4b96-af04-f93d831116f6")
+		(property "Reference" "#PWR040"
+			(at 271.78 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9329,7 +10565,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 318.77 210.82 0)
+			(at 271.78 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f973ecc8-cd76-496c-9ab3-2cc6d66eec5a")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a78614c-69b0-49c2-b008-2bfe4665e8c9")
+		(property "Reference" "#PWR018"
+			(at 318.77 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9353,7 +10667,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 326.39 205.74 0)
+		(at 326.39 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9363,8 +10677,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b32ae8d-ab1e-4138-8cb9-60a76da9037f")
-		(property "Reference" "C6"
-			(at 330.2 204.4699 0)
+		(property "Reference" "C_TPS_OUT2"
+			(at 330.2 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9374,8 +10688,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 330.2 207.0099 0)
+		(property "Value" "22uF 10V X7R"
+			(at 330.2 219.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9385,8 +10699,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 327.3552 209.55 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 327.3552 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9397,7 +10711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 205.74 0)
+			(at 326.39 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9408,7 +10722,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 326.39 205.74 0)
+			(at 326.39 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9427,7 +10741,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "C6")
+					(reference "C_TPS_OUT2")
 					(unit 1)
 				)
 			)
@@ -9513,7 +10827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 218.44 0)
+		(at 262.89 231.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9524,7 +10838,7 @@
 		(fields_autoplaced yes)
 		(uuid "523bf931-6c82-4fde-bd93-8b7005547570")
 		(property "Reference" "#PWR015"
-			(at 262.89 224.79 0)
+			(at 262.89 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +10849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.8899 222.25 90)
+			(at 262.8899 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9546,7 +10860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 218.44 0)
+			(at 262.89 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9557,7 +10871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 218.44 0)
+			(at 262.89 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9568,7 +10882,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 218.44 0)
+			(at 262.89 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9585,6 +10899,85 @@
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 261.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5311d17e-91fc-45b5-b071-153567d0ceb6")
+		(property "Reference" "#PWR012"
+			(at 260.35 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 252.73 261.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 256.54 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f74d9de-2643-4ac7-9793-c5111dde5a00")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9624,7 +11017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 324.612 299.72 90)
 			(hide yes)
 			(show_name no)
@@ -9753,6 +11146,166 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 316.23 262.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593b0fd4-8ce4-4708-8d01-af1ab33989a6")
+		(property "Reference" "#PWR041"
+			(at 316.23 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 316.23 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6348980-33e1-4e64-8e37-3e991e29a1d7")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 316.23 283.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abd2408-a58d-4108-8c0d-cc194372ec42")
+		(property "Reference" "C_LFXO2"
+			(at 320.04 281.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10pF"
+			(at 320.04 284.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 315.2648 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 316.23 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fca3bbc5-75af-48a8-8fe3-3f3edb3bc500")
+		)
+		(pin "2"
+			(uuid "8789c1ac-afd2-42d2-9106-a94af6aca5aa")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "C_LFXO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 213.36 275.59 270)
 		(unit 1)
 		(body_style 1)
@@ -9864,7 +11417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 393.3952 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -9993,7 +11546,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 208.28 270)
+		(at 275.59 220.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10004,7 +11557,7 @@
 		(fields_autoplaced yes)
 		(uuid "64ac6c2d-a06e-4e12-99d7-29e129b43c23")
 		(property "Reference" "#PWR017"
-			(at 269.24 208.28 0)
+			(at 269.24 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10015,7 +11568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 208.2799 90)
+			(at 271.78 220.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10026,7 +11579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 208.28 0)
+			(at 275.59 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,7 +11590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 208.28 0)
+			(at 275.59 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10048,7 +11601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 208.28 0)
+			(at 275.59 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +11635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d57ee45-4745-4147-8464-2a89f13a75a8")
-		(property "Reference" "C_OUT_BQ"
+		(property "Reference" "C_OUT_BQ1"
 			(at 262.89 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +11645,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10V X7R"
 			(at 262.89 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10102,7 +11655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 266.7 183.1848 0)
 			(hide yes)
 			(show_name no)
@@ -10144,7 +11697,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "C_OUT_BQ")
+					(reference "C_OUT_BQ1")
 					(unit 1)
 				)
 			)
@@ -10240,7 +11793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "721424f5-e4ab-46af-a47d-f5791aa063f4")
-		(property "Reference" "BLE_LED"
+		(property "Reference" "D1"
 			(at 210.82 339.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10250,7 +11803,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "APT1608QBC/D"
 			(at 208.788 341.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10260,7 +11813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 209.55 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -10271,7 +11824,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/APT1608QBC-D.pdf?utm_source=chatgpt.com"
 			(at 209.55 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -10313,7 +11866,85 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "BLE_LED")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 274.32 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73072259-d273-4a4b-97dd-57afea7e2d65")
+		(property "Reference" "#FLG04"
+			(at 274.32 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 274.32 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 274.32 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "915400aa-ad55-48d5-bc3a-9431aaff814a")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -10330,7 +11961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7627effc-a676-4629-ba10-6d810515de3c")
-		(property "Reference" "RGB_BLUE_R"
+		(property "Reference" "RGB_RED_R1"
 			(at 204.47 324.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10340,7 +11971,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "750"
 			(at 207.01 326.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10350,7 +11981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 331.978 90)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +12023,165 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "RGB_BLUE_R")
+					(reference "RGB_RED_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 199.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7629f489-6ee4-493c-9f5f-e8a51d39f88c")
+		(property "Reference" "#PWR037"
+			(at 262.89 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.8901 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5901a8fc-0ad0-4386-91f7-b57949d00a61")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 340.36 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7873225f-7be1-4f9e-8132-eb1eb8a1ab3d")
+		(property "Reference" "BAT+1"
+			(at 342.9 177.0379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 342.9 179.5779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 345.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 340.36 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3cb22d8-de29-407c-b670-1fa9a7a029fa")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "BAT+1")
 					(unit 1)
 				)
 			)
@@ -10488,7 +12277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d8a673-0af5-4346-821c-11e0539fb266")
-		(property "Reference" "R_TOP"
+		(property "Reference" "R_BOT1"
 			(at 369.57 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10510,7 +12299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.808 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -10552,7 +12341,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_TOP")
+					(reference "R_BOT1")
 					(unit 1)
 				)
 			)
@@ -10560,7 +12349,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 311.15 205.74 0)
+		(at 311.15 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10568,10 +12357,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b6854b4-114a-4818-8418-051be8ad7d2a")
-		(property "Reference" "C5"
-			(at 314.96 204.4699 0)
+		(property "Reference" "C_TPS_OUT1"
+			(at 306.578 209.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10581,8 +12369,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 314.96 207.0099 0)
+		(property "Value" "22uF 10V X7R"
+			(at 307.086 211.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10592,8 +12380,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 312.1152 209.55 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 312.1152 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10604,7 +12392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 205.74 0)
+			(at 311.15 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10615,7 +12403,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 311.15 205.74 0)
+			(at 311.15 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10634,7 +12422,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "C5")
+					(reference "C_TPS_OUT1")
 					(unit 1)
 				)
 			)
@@ -10742,7 +12530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "USB4105-GF-A"
 			(at 304.8 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10753,7 +12541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 285.75 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10764,7 +12552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
 			(at 285.75 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10847,6 +12635,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 375.92 311.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "860409f8-c5b0-4bc0-bb05-ac446e1f08c9")
+		(property "Reference" "#PWR039"
+			(at 382.27 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 311.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 375.92 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebfcd4eb-d1be-4fa3-acce-18227a5cd6e9")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 254 144.78 90)
 		(unit 1)
@@ -10858,7 +12725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "888994a6-beab-44b2-9e7c-fa4c28ff96a8")
-		(property "Reference" "R_ILIM"
+		(property "Reference" "R_ILIM1"
 			(at 254 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10868,7 +12735,7 @@
 				)
 			)
 		)
-		(property "Value" "3.1k"
+		(property "Value" "3.09k"
 			(at 254 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10878,7 +12745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -10920,7 +12787,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_ILIM")
+					(reference "R_ILIM1")
 					(unit 1)
 				)
 			)
@@ -10928,7 +12795,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 262.89 214.63 180)
+		(at 262.89 227.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10937,8 +12804,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8929a36e-1d91-403a-b1cd-1ca7bb78cd11")
-		(property "Reference" "VINA_C"
-			(at 253.492 213.36 0)
+		(property "Reference" "VINA_C1"
+			(at 253.492 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10949,7 +12816,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 254.254 215.392 0)
+			(at 254.254 228.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10959,8 +12826,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 261.9248 210.82 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 261.9248 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10971,7 +12838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 214.63 0)
+			(at 262.89 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10982,7 +12849,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 262.89 214.63 0)
+			(at 262.89 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11001,7 +12868,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "VINA_C")
+					(reference "VINA_C1")
 					(unit 1)
 				)
 			)
@@ -11165,8 +13032,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 231.14 203.2 0)
+		(lib_id "Device:R")
+		(at 292.1 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11174,10 +13041,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91410dde-60d1-4c84-b292-e7039de1523b")
-		(property "Reference" "POWER_SWITCH"
-			(at 231.14 196.85 0)
+		(uuid "8d1cd5e1-39a1-42ca-95b4-7d646029f15b")
+		(property "Reference" "R_EN2"
+			(at 292.1 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11186,8 +13052,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 231.14 199.39 0)
+		(property "Value" "10k"
+			(at 292.1 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11196,8 +13062,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 203.2 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 292.1 130.302 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11208,7 +13074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 203.2 0)
+			(at 292.1 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11218,8 +13084,166 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 231.14 203.2 0)
+		(property "Description" "Resistor"
+			(at 292.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3513f429-68a4-40ad-a073-7e791da1d4aa")
+		)
+		(pin "1"
+			(uuid "d81892a3-882a-401c-b200-eeef2a628ff4")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "R_EN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 316.23 288.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fa21b77-527e-432e-9cb8-de6fd01f5114")
+		(property "Reference" "#PWR042"
+			(at 316.23 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 293.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 316.23 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78e8d412-f7df-4fb1-95c2-f162a3bcadaa")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 219.71 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91410dde-60d1-4c84-b292-e7039de1523b")
+		(property "Reference" "POWER_SWITCH1"
+			(at 219.71 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JS102011SAQN"
+			(at 219.71 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+			(at 219.71 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ckswitches.com/media/1422/js.pdf"
+			(at 219.71 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 219.71 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11235,10 +13259,13 @@
 		(pin "2"
 			(uuid "3dc7e278-e839-4140-93b9-71f2dd2c3ce1")
 		)
+		(pin "3"
+			(uuid "1d5493f0-100c-47a0-99ff-90fa9b4db8d5")
+		)
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "POWER_SWITCH")
+					(reference "POWER_SWITCH1")
 					(unit 1)
 				)
 			)
@@ -11278,7 +13305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 393.3952 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -11406,6 +13433,245 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 215.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e928b54-829c-455e-a279-e15cc6c3d273")
+		(property "Reference" "#FLG02"
+			(at 231.14 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31384804-cb03-44f3-b247-e5a5e882c93c")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 316.23 267.97 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9feb803e-2683-4dad-829e-b3a62a655177")
+		(property "Reference" "C_LFXO1"
+			(at 320.04 266.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10pF"
+			(at 320.04 269.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 315.2648 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 316.23 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bedbfb85-64b2-4877-8bfc-ef5e26a9045a")
+		)
+		(pin "2"
+			(uuid "fc4864a8-073b-45e4-af20-5e1cd97a08f8")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "C_LFXO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 328.93 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a172e36d-8ee8-4296-ba27-a8ff1e03f71f")
+		(property "Reference" "+3V3"
+			(at 331.47 204.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 331.47 207.5179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 334.01 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 328.93 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "215cc65b-54e4-4128-9f6a-9c47a5e02919")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "+3V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 375.92 323.85 90)
 		(unit 1)
@@ -11496,7 +13762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac37dd42-7ba3-4272-84ea-0c389a27c55a")
-		(property "Reference" "R_ISET"
+		(property "Reference" "R_ISET1"
 			(at 242.57 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11516,7 +13782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -11558,7 +13824,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_ISET")
+					(reference "R_ISET1")
 					(unit 1)
 				)
 			)
@@ -11575,8 +13841,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acd59a37-b7ed-48ac-a6c0-286f7154acf5")
-		(property "Reference" "BLE_LED_R"
-			(at 199.39 339.598 90)
+		(property "Reference" "R3"
+			(at 201.93 348.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11586,7 +13852,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 201.93 341.63 90)
+			(at 201.93 350.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11595,7 +13861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 347.218 90)
 			(hide yes)
 			(show_name no)
@@ -11637,7 +13903,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "BLE_LED_R")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11645,7 +13911,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 269.24 215.9 0)
+		(at 269.24 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11653,10 +13919,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "add84374-0427-4b18-b029-8004405571b7")
 		(property "Reference" "L1"
-			(at 270.51 214.6299 0)
+			(at 266.954 235.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11666,8 +13931,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uH"
-			(at 270.51 217.1699 0)
+		(property "Value" "74438335022"
+			(at 266.954 237.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11677,8 +13942,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 269.24 215.9 0)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-3015"
+			(at 269.24 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11688,8 +13953,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 269.24 215.9 0)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/WE-MAPI?utm_source=chatgpt.com"
+			(at 269.24 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11700,7 +13965,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 269.24 215.9 0)
+			(at 269.24 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11737,7 +14002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af2628dc-f58e-4bc6-8feb-48429265d6db")
-		(property "Reference" "R_BOT"
+		(property "Reference" "R_TOP1"
 			(at 369.57 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11759,7 +14024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.808 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -11801,7 +14066,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_BOT")
+					(reference "R_TOP1")
 					(unit 1)
 				)
 			)
@@ -11809,7 +14074,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 330.2 200.66 270)
+		(at 330.2 213.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11820,7 +14085,7 @@
 		(fields_autoplaced yes)
 		(uuid "b17d252d-6d10-498a-8bb6-d0204779d724")
 		(property "Reference" "#PWR013"
-			(at 326.39 200.66 0)
+			(at 326.39 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11831,7 +14096,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 334.01 200.6599 90)
+			(at 334.01 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11842,7 +14107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 200.66 0)
+			(at 330.2 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +14118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 200.66 0)
+			(at 330.2 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11864,7 +14129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 330.2 200.66 0)
+			(at 330.2 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11896,10 +14161,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b354aa3c-b0a6-4400-b2c9-6183450c3554")
 		(property "Reference" "U3"
-			(at 306.07 156.1398 90)
+			(at 265.43 154.178 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11909,7 +14173,7 @@
 			)
 		)
 		(property "Value" "BQ24074RGT"
-			(at 306.07 158.6798 90)
+			(at 265.43 156.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12103,7 +14367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79a9b45-1fa3-488d-be18-ded75dd290f7")
-		(property "Reference" "R_TS"
+		(property "Reference" "R_TS1"
 			(at 311.15 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12123,7 +14387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 311.15 174.498 90)
 			(hide yes)
 			(show_name no)
@@ -12165,7 +14429,84 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_TS")
+					(reference "R_TS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc545bd4-bb95-4259-925c-9ef201fd6759")
+		(property "Reference" "GND1"
+			(at 260.858 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.858 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad93f644-f564-4565-8dd9-eaf799b927f3")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -12193,7 +14534,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3U-1000P"
 			(at 208.28 356.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12203,7 +14544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 208.28 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -12214,7 +14555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/A165-E1.pdf?utm_source=chatgpt.com"
 			(at 208.28 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -12668,6 +15009,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 262.89 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd415a41-582b-45fb-9b03-03881a07eb12")
+		(property "Reference" "C_IN_TPS1"
+			(at 266.7 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF 10V X7R"
+			(at 268.986 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 263.8552 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.89 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8c82158-b60a-4f17-88b7-ac4ce4a0db45")
+		)
+		(pin "2"
+			(uuid "930222d2-7dca-4a65-bc8a-7ed5b0167d22")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "C_IN_TPS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 326.39 275.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf7f9bdc-2273-45d0-befb-d94e627462e0")
+		(property "Reference" "X_LFXO1"
+			(at 330.2 274.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FC-135 32.768kHz 7pF"
+			(at 330.2 276.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 326.39 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 326.39 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3a1074e-e3b6-400f-b0db-dde79588856f")
+		)
+		(pin "1"
+			(uuid "ac01f228-4828-4d4f-8c04-3547ef052888")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "X_LFXO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 317.5 172.72 180)
 		(unit 1)
@@ -12746,6 +15248,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 375.92 308.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11173b1-1b83-4ae0-ad54-552012035f47")
+		(property "Reference" "#PWR038"
+			(at 382.27 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 308.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 375.92 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6416864-149a-4dcf-b134-5567dfe59b17")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 328.93 120.65 90)
 		(unit 1)
@@ -12777,7 +15358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 122.428 90)
 			(hide yes)
 			(show_name no)
@@ -12983,83 +15564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 279.4 264.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dbc41cc7-ab44-40ae-a9ed-c37c8be7cec5")
-		(property "Reference" "#PWR012"
-			(at 279.4 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 279.4 259.588 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 279.4 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "793df951-a144-4be2-b270-44359c3b226a")
-		)
-		(instances
-			(project "L Smart Baton"
-				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 259.08 184.15 270)
 		(unit 1)
@@ -13139,8 +15643,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 321.31 270)
+		(lib_id "Connector:TestPoint")
+		(at 295.91 189.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13149,20 +15653,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e81ae67f-00b3-411e-88e0-f5191dd9bdb3")
-		(property "Reference" "#PWR032"
-			(at 176.53 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 321.3099 90)
+		(uuid "e8dccdf5-9975-4070-b7bf-cf4ffcfec313")
+		(property "Reference" "BQ_OUT1"
+			(at 298.45 191.2619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13172,8 +15665,19 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 321.31 0)
+		(property "Value" "TestPoint"
+			(at 298.45 193.8019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 290.83 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13184,7 +15688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 321.31 0)
+			(at 290.83 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13194,8 +15698,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 321.31 0)
+		(property "Description" "test point"
+			(at 295.91 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13206,12 +15710,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4b2f082-36cd-49e9-b974-83859184dab5")
+			(uuid "182911d6-9262-492e-b123-5b69b0dd715f")
 		)
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "#PWR032")
+					(reference "BQ_OUT1")
 					(unit 1)
 				)
 			)
@@ -13251,7 +15755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 327.152 339.09 90)
 			(hide yes)
 			(show_name no)
@@ -13311,7 +15815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb4c10bc-3973-442f-8438-ec690e4259a9")
-		(property "Reference" "J_SWD"
+		(property "Reference" "J_SWD1"
 			(at 233.68 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13322,7 +15826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "22052051"
 			(at 233.68 271.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13333,7 +15837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 231.14 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -13344,7 +15848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22052051?utm_source=chatgpt.com"
 			(at 231.14 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -13384,15 +15888,15 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "J_SWD")
+					(reference "J_SWD1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 256.54 203.2 90)
+		(lib_id "Device:C")
+		(at 261.62 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13400,30 +15904,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff58494b-d586-4ba1-ace8-1e0b909286c9")
-		(property "Reference" "R_VINA"
-			(at 256.54 196.85 90)
+		(uuid "f3c902ac-f948-49ac-b869-2f46a096c834")
+		(property "Reference" "C_MCU_100N1"
+			(at 245.872 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 256.54 199.39 90)
+		(property "Value" "100nF"
+			(at 252.476 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 204.978 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 262.5852 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13434,7 +15939,322 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 203.2 0)
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "797eb1d8-49b3-4031-99e1-5fdfb8b70b8f")
+		)
+		(pin "1"
+			(uuid "392d1d1e-5c89-48f6-a007-33e9eda5739e")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "C_MCU_100N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 248.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f805603d-fe55-4849-a30c-815e96a41254")
+		(property "Reference" "#PWR025"
+			(at 261.62 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf5632a2-f46c-4e93-9db3-beba83de720f")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1accc6-8734-4875-8f76-5153454ac439")
+		(property "Reference" "#PWR043"
+			(at 274.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30d5a6ef-a800-450a-a57a-079ce8804bc7")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 321.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc1fd776-7c24-46c7-8d15-608537222c18")
+		(property "Reference" "#PWR032"
+			(at 184.15 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 176.53 321.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe142608-4a55-4640-8a2e-67aeefe8ccd2")
+		)
+		(instances
+			(project "L Smart Baton"
+				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff58494b-d586-4ba1-ace8-1e0b909286c9")
+		(property "Reference" "R_VINA1"
+			(at 256.54 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 256.54 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 217.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13445,7 +16265,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 203.2 0)
+			(at 256.54 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13464,7 +16284,7 @@
 		(instances
 			(project "L Smart Baton"
 				(path "/0317b452-a1b7-45b1-86f0-abd0d959d24f"
-					(reference "R_VINA")
+					(reference "R_VINA1")
 					(unit 1)
 				)
 			)

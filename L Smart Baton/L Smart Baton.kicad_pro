@@ -592,12 +592,90 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -650,7 +728,7 @@
         "uuid": "0317b452-a1b7-45b1-86f0-abd0d959d24f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "VBUS1,GND1,BQ_OUT1,RGB_GREEN_R1,RGB_BLUE_R1,TP1-5,R_TOP1,C_MCU_100N1,R_ITERM1,#FLG1-4,R_CHG_PULLUP1,R_VINA1,R_ILIM1,J_SWD1,C_MCU_BULK1,POWER_SWITCH1,BAT+1,C_IN_BQ1,J_BAT1,C_IN_TPS1,LED_RGB1,C_SENSE1,R_TMR1,X_LFXO1,C_OUT_BQ1,Y1,D1,#PWR12,#PWR25,#PWR32,#PWR37-43,C3-4,R_TS1,R3,VINA_C1,C_BAT_BQ1,R_ISET1,RGB_RED_R1,R_BOT1",
     "variants": []
   },
   "sheets": [
