@@ -525,7 +525,7 @@
         "name": "Power",
         "pcb_color": "rgb(225, 225, 0)",
         "priority": 0,
-        "schematic_color": "rgb(225, 225, 0)",
+        "schematic_color": "rgb(220, 220, 0)",
         "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
