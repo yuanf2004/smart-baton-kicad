@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LSM6DSOX") (type "KiCad") (uri "${KIPRJMOD}/libraries/LSM6DSOX.pretty") (options "") (descr ""))
+)
