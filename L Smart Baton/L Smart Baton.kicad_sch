@@ -12760,7 +12760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB4105-GF-A"
+		(property "Value" "TYPEC-304A-ACP16W"
 			(at 304.8 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +12782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+		(property "Datasheet" ""
 			(at 285.75 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14238,7 +14238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74438335022"
+		(property "Value" "MPN3015S2R2MT"
 			(at 266.954 237.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14249,7 +14249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-3015"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA3015S"
 			(at 269.24 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -14260,7 +14260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/WE-MAPI?utm_source=chatgpt.com"
+		(property "Datasheet" ""
 			(at 269.24 228.6 0)
 			(hide yes)
 			(show_name no)
